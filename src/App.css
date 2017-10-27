@@ -1,0 +1,307 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.signin {
+  float: right;
+  font-family: 'Avenir-Book', sans-serif;
+  font-size: 14px;
+  color: #838383;
+  letter-spacing: 0.93px;
+  margin-right: 60px;
+}
+
+.logo {
+  margin-top: 70px;
+  width: 100%;
+}
+
+.logo-1 {
+  display: block;
+  height:43px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 70px;
+  width: 155px;
+}
+
+.menu {
+  text-align: center;
+}
+
+li {
+  display: inline;
+  font-family: 'Avenir-Book', sans-serif;
+  font-size: 16px;
+  color: #232323;
+  letter-spacing: 1px;
+  line-height: 36px;
+  margin-right: 80px;
+  text-transform: uppercase;
+}
+
+a {
+  color: #232323;
+  text-decoration: none;
+}
+
+.slideshow {
+  display: block;
+  height: 466px;
+  margin: auto;
+  margin-top: 30px;
+  width: 816px;
+}
+
+.slides {
+  height: 100%;
+  width: 100%;
+}
+
+.selections {
+  margin-top: 32px;
+}
+
+.heading-1 {
+  color: #000000;
+  font-family: 'TimesNewRomanPSMT', sans-serif;
+  font-size: 24px;
+  height: 32px;
+  letter-spacing: 1.6px;
+  line-height: 32px;
+  margin: auto;
+  text-transform: uppercase;
+  width: 161px;
+}
+
+.heading-2 {
+  color: #000000;
+  font-family: 'TimesNewRomanPS-ItalicMT', sans-serif;
+  font-size: 24px;
+  height: 24px;
+  letter-spacing: 1.6px;
+  line-height: 24px;
+  margin: auto;
+  width: 126px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 18px;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+.product .thumbnail {
+  height: 240px;
+  width: 240px;
+}
+
+.hiw {
+  margin-top: 30px;
+}
+
+.heading-3 {
+  color: #000000;
+  font-family: 'TimesNewRomanPSMT', sans-serif;
+  font-size: 24px;
+  letter-spacing: 1.6px;
+  margin-top: 32px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.line {
+  border: 1px solid #979797;
+  height: 32px;
+  margin: auto;
+  margin-top: 8.5px;
+  width: 0px;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.step {
+  border: 1px solid #eee;
+  height: 400px;
+  text-align: center;
+  width: 267px;
+}
+
+.num-1 {
+  color: #7D7D7D;
+  font-family: 'TimesNewRomanPSMT', sans-serif;
+  font-weight: 300;
+  height: 45px;
+  margin: auto;
+  margin-top: 43px;
+  width: 23px;
+}
+
+.head-1 {
+  font-family: 'TimesNewRomanPSMT', sans-serif;
+  font-weight: 300;
+}
+
+.p-1 {
+  /*line-height: 28px;*/
+  /*margin-left: 50px;*/
+  /*margin-right: 50px;*/
+  color: #232323;
+  font-family: 'Avenir-Book', sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.83px;
+  line-height: 28px;
+  text-align: justify;
+  height: 140px;
+  width: 197px;
+  margin: auto;
+}
+
+.get-started {
+  color: #000000;
+  font-family: 'TimesNewRomanPS-ItalicMT', sans-serif;
+  font-size: 24px;
+  letter-spacing: 1.6px;
+  line-height: 32px;
+  margin-bottom: 8.5%;
+  margin-top: 2.9%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #eee;
+  height: 200px;
+  margin-top: 50px;
+  width: 100%
+}
+
+
+.signup {
+  border: 1px solid #979797;
+  height: 400px;
+  margin: auto;
+  margin-bottom: 200px;
+  margin-top: 80px;
+  text-align: center;
+  width: 700px;
+}
+
+.acc {
+  background: #fff;
+  color: #000000;
+  font-family: 'TimesNewRomanPSMT', sans-serif;
+  font-size: 24px;
+  height: 28px;
+  letter-spacing: 1.6px;
+  line-height: 28px;
+  margin: auto;
+  margin-top: -15px;
+  text-align: center;
+  width: 426px;
+}
+
+.usertype-buttons {
+  margin-top: 106px;
+  text-align: center;
+}
+
+.designer-button, .user-button, .p-2 {
+  display: inline-block;
+}
+
+.designer-button {
+  background-color: #fff;
+  border: 1px solid #CBCBCB;
+  color: #252525;
+  float: left;
+  font-family: 'Avenir-Book', sans-serif;
+  font-size: 20px;
+  height: 60px;
+  letter-spacing: 0.87px;
+  margin-left: 115px;
+  width: 180px;
+}
+
+.user-button {
+  background-color: #fff;
+  border: 1px solid #CBCBCB;
+  color: #252525;
+  float: left;
+  font-family: 'Avenir-Book', sans-serif;
+  font-size: 20px;
+  height: 60px;
+  letter-spacing: 0.87px;
+  width: 180px;
+}
+
+.p-2 {
+  color: #000000;
+  float: left;
+  font-family: 'TimesNewRomanPS-ItalicMT', sans-serif;
+  font-size: 24px;
+  height: 28px;
+  letter-spacing: 1.6px;
+  line-height: 28px;
+  width: 100px;
+}
+
+.create-button {
+  background-color: #fff;
+  border: 1px solid #494949;
+  color: #252525;
+  font-family: 'Avenir-Book', sans-serif;
+  font-size: 20px;
+  height: 52px;
+  letter-spacing: 0.87px;
+  margin: auto;
+  margin-top: 90px;
+  width: 250px;
+}
+
+.sign-up-input {
+  height: 45px;
+  width: 250px;
+  float: left;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+
+.btn {
+  text-align: center;
+}
+
+.sign-in-input {
+  height: 45px;
+  width: 250px;
+  margin-top: 40px;
+}
+
+.btn-sign-in {
+  background-color: #fff;
+  border: 1px solid #979797;
+  height: 45px;
+  width: 250px;
+  margin-top: 40px;
+}
+
+.noacc {
+  font-family: 'TimesNewRomanPS-ItalicMT', sans-serif;
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: 1.6px;
+  line-height: 32px;
+  margin-bottom: 115px;
+  text-align: center;
+  text-decoration: underline;
+}
