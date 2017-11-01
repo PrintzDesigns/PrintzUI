@@ -1,0 +1,69 @@
+.SearchBar {
+	display: inline-flex;
+	height: 45px;
+	width: 75%;
+	margin: 5% auto 5% 8%;
+}
+
+.search-input {
+    background-image: url('./../../app/assets/icons/search.png');
+    background-size: 20px 100%;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    text-indent: 30px;
+	
+	border: 1px solid #D8D8D8;
+	border-radius: 3px;
+	width: 50%;
+	margin-left: 45px;
+
+	font-family: Avenir-Book;
+	font-size: 18px;
+	color: #BABABA;
+	letter-spacing: 0.5px;
+}
+
+.search-logo {
+	width: 25%;
+	max-width: 160px;
+}
+
+.search-icon {
+	size: 16px 16px;
+}
+
+.circle-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #979797;
+    margin: auto 10px;
+}
+
+.line-break {
+	border: 1px solid #F1F1F1;
+}
+
+.profile-tabs {
+	display: inline-flex;
+	width: 100%;
+	font-family: Avenir-Book;
+	font-size: 16px;
+	color: #232323;
+	letter-spacing: 1.07px;
+}
+
+.profile-tab {
+	width: 33%;
+	text-align: center;
+}
+
+.add-content {
+	margin: 200px auto;
+	text-align: center;
+}
+
+.add-icon {
+	width: 75px;
+	height: 75px;
+}
