@@ -17,6 +17,7 @@ class Header extends Component {
           <img alt="" className="logo-1" src={logo} />
         </div>
         <ul className="menu">
+          <li><a href="/myprofile">Profile</a></li>
           <li><a href="">Designers</a></li>
           <li><a href="">Discover</a></li>
           <li><a href="https://www.printzdesigns.blog/" target="_blank">The Journal</a></li>
