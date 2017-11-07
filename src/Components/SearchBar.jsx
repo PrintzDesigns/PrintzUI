@@ -23,7 +23,7 @@ class SearchBar extends Component {
         <div className="right-menu">
           <a href="#"><img alt="" className="discover-icon small-icon" src={discoverIcon} /></a>
           <a href="#"><img alt="" className="profile-icon small-icon" src={profileIcon} /></a>
-          {Evelyn Horn}
+          {"Evelyn Horn"}
         </div>
       </div>
     );
