@@ -8,12 +8,11 @@ import {Link} from 'react-router-dom';
 
 class HomePage extends Component {
   render() {
-    console.log(this.props);
     return (
 
       <div className="HomePage">
         <div className="slideshow">
-          <a href="https://printzdesigns.blog/2017/09/25/fall-refresh/" target="_blank">
+          <a href="https://printzdesigns.blog/2017/09/25/fall-refresh/" target="_blank" className="menu-items">
             <img className="slides" src={placeholder1} alt=""/>
           </a>
       </div>

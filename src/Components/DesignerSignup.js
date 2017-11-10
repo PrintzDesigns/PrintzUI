@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import './../App.css';
-import Header from './Header';
-import Footer from './Footer';
-import axios from 'axios';
 
 class DesignerSignup extends Component {
   constructor(props) {
@@ -15,19 +12,45 @@ class DesignerSignup extends Component {
     };
   }
 
+  signUpSuccess(response) {
+    console.log("Inside signup success");
+    console.log("response is", response.json());
+    alert("signUpSuccess");
+  }
+
+  signUpFailure(data) {
+    console.log("Inside signUpFailure ");
+    console.log("error is", data.json());
+    alert("sign up failed");
+  }
+
   handleClick(event) {
-    var apiBaseUrl = "http://localhost:4741";
+    event.preventDefault();
+    var apiBaseUrl = "http://www.localhost:4741";
     var self = this;
-    if(this.state.first_name.length>0 && this.state.last_name.length>0 && this.state.email.length>0 && this.state.password.length>0){
+    if(this.state.first_name.length>0 && this.state.last_name.length>0 && this.state.email.length>0 && this.state.password.length>0) {
       var payload={
-      "first_name": this.state.first_name,
-      "last_name":this.state.last_name,
-      "email":this.state.email,
-      "password":this.state.password
+        "user": {
+          "first_name": this.state.first_name,
+          "last_name":this.state.last_name,
+          "email":this.state.email,
+          "password":this.state.password
+        }
     };
-    console.log("pay ",payload);
-    axios.post(apiBaseUrl + '/sign-up', payload)
-    .then(alert("signup success"));
+
+    fetch(apiBaseUrl + '/sign-up', {
+      method: 'POST',
+      body: JSON.stringify(payload),
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+    })
+    .then(response => response.json())
+    .then(response => {
+      console.log(response);
+    })
+    .catch();
   }
   }
 
@@ -42,7 +65,6 @@ class DesignerSignup extends Component {
   render() {
     return (
       <div className="DesignerSignup">
-        <Header />
         <div className="signup">
             <div className="acc">We are happy to have you.</div>
 
@@ -80,7 +102,6 @@ class DesignerSignup extends Component {
               </form>
             </div>
           </div>
-        <Footer />
       </div>
     );
   }

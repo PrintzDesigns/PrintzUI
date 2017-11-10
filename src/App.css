@@ -5,10 +5,10 @@ html {
 }
 
 .signin {
+  color: #838383;
   float: right;
   font-family: 'Avenir-Book', sans-serif;
   font-size: 14px;
-  color: #838383;
   letter-spacing: 0.93px;
   margin-right: 60px;
 }
@@ -20,26 +20,54 @@ html {
 
 .logo-1 {
   display: block;
-  height:43px;
-  margin-left: auto;
-  margin-right: auto;
+  font-family: 'Avenir', sans-serif;
+  font-size: 12px;
+  height:40.77pt;
+  margin: auto;
   padding-left: 70px;
-  width: 155px;
+  width: 165.95pt;
+}
+
+.tagline {
+  color: #232323;
+  display: block;
+  font-family: 'Avenir', sans-serif;
+  font-size: 7.7pt;
+  margin: auto;
+  margin-top: -3px;
+  padding-right : 38pt;
+  text-align: center;
+  width: 165.95pt;
+}
+
+.line-h {
+  border: 1px solid #979797;
+  margin: auto;
+  margin-top: 30px;
+  padding-right : 38pt;
+  width: 770px;
 }
 
 .menu {
+  margin-left: 40px;
+  margin-top: 40px;
   text-align: center;
 }
 
 li {
+  color: #232323;
   display: inline;
   font-family: 'Avenir-Book', sans-serif;
-  font-size: 16px;
-  color: #232323;
+  font-size: 12px;
   letter-spacing: 1px;
   line-height: 36px;
   margin-right: 80px;
   text-transform: uppercase;
+}
+
+.menu-items {
+  color: #232323;
+  text-decoration: none;
 }
 
 a {
@@ -67,38 +95,38 @@ a {
 .heading-1 {
   color: #000000;
   font-family: 'TimesNewRomanPSMT', sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   height: 32px;
   letter-spacing: 1.6px;
   line-height: 32px;
   margin: auto;
+  text-align: center;
   text-transform: uppercase;
-  width: 161px;
 }
 
 .heading-2 {
   color: #000000;
   font-family: 'TimesNewRomanPS-ItalicMT', sans-serif;
-  font-size: 24px;
+  font-size: 17px;
   height: 24px;
   letter-spacing: 1.6px;
   line-height: 24px;
   margin: auto;
-  width: 126px;
+  text-align: center;
 }
 
 .products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 18px;
   margin-left: 110px;
   margin-right: 110px;
+  margin-top: 18px;
 }
 
 .product .thumbnail {
-  height: 240px;
-  width: 240px;
+  height: 220px;
+  width: 220px;
 }
 
 .hiw {
@@ -108,9 +136,11 @@ a {
 .heading-3 {
   color: #000000;
   font-family: 'TimesNewRomanPSMT', sans-serif;
-  font-size: 24px;
+  font-size: 18px;
+  height: 32px;
   letter-spacing: 1.6px;
-  margin-top: 32px;
+  line-height: 32px;
+  margin: auto;
   text-align: center;
   text-transform: uppercase;
 }
@@ -120,7 +150,7 @@ a {
   height: 32px;
   margin: auto;
   margin-top: 8.5px;
-  width: 0px;
+  width: 0;
 }
 
 .steps {
@@ -132,7 +162,7 @@ a {
 
 .step {
   border: 1px solid #eee;
-  height: 400px;
+  height: 350px;
   text-align: center;
   width: 267px;
 }
@@ -148,29 +178,35 @@ a {
 }
 
 .head-1 {
+  color: #000000;
   font-family: 'TimesNewRomanPSMT', sans-serif;
+  font-size: 18px;
   font-weight: 300;
+  height: 32px;
+  letter-spacing: 1.6px;
+  line-height: 32px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .p-1 {
-  /*line-height: 28px;*/
-  /*margin-left: 50px;*/
-  /*margin-right: 50px;*/
   color: #232323;
   font-family: 'Avenir-Book', sans-serif;
-  font-size: 20px;
+  font-size: 17px;
+  height: 140px;
   letter-spacing: 0.83px;
   line-height: 28px;
-  text-align: justify;
-  height: 140px;
-  width: 197px;
   margin: auto;
+  text-align: justify;
+  width: 197px;
 }
 
 .get-started {
   color: #000000;
   font-family: 'TimesNewRomanPS-ItalicMT', sans-serif;
-  font-size: 24px;
+  font-size: 17px;
   letter-spacing: 1.6px;
   line-height: 32px;
   margin-bottom: 8.5%;
@@ -270,11 +306,11 @@ a {
 }
 
 .sign-up-input {
-  height: 45px;
-  width: 250px;
   float: left;
+  height: 45px;
   margin-left: 60px;
   margin-top: 40px;
+  width: 250px;
 }
 
 .btn {
@@ -283,25 +319,92 @@ a {
 
 .sign-in-input {
   height: 45px;
-  width: 250px;
   margin-top: 40px;
+  width: 250px;
 }
 
 .btn-sign-in {
   background-color: #fff;
   border: 1px solid #979797;
   height: 45px;
-  width: 250px;
   margin-top: 40px;
+  width: 250px;
 }
 
 .noacc {
+  color: #000000;
   font-family: 'TimesNewRomanPS-ItalicMT', sans-serif;
   font-size: 24px;
-  color: #000000;
   letter-spacing: 1.6px;
   line-height: 32px;
   margin-bottom: 115px;
   text-align: center;
   text-decoration: underline;
+}
+
+.contact {
+  color: #232323;
+  display: block;
+  font-family: 'Avenir-Book', sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 36px;
+  text-transform: lowercase;
+}
+
+.contact-text {
+  font-family: 'Avenir-Heavy', sans-serif;
+  text-transform: uppercase;
+}
+
+.details {
+  text-transform: uppercase;
+}
+
+.footer-contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.newsletter {
+  font-family: 'TimesNewRomanPS-ItalicMT', sans-serif;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 1.2px;
+  margin-top: 20px;
+}
+
+.email {
+  background: #FFFFFF;
+  border: 0 solid #DEDEDE;
+  box-shadow: 0 2px 4px 0 rgba(229,229,229,0.50);
+  width: 180px;
+  height: 30px;
+  margin-top: 16px;
+}
+
+.button {
+  height: 20px;
+  width: 20px;
+  text-align: center;
+}
+
+.button-space {
+  border: 1px solid #000;
+  height: 30px;
+  width: 56px;
+  background: #252525;
+  margin-top: 16px;
+}
+
+.input-space {
+  display: inline;
+}
+
+.fb {
+  margin-top: 30px;
+  height: 20px;
+  width: 20px;
+  margin-left: -40px;
 }
