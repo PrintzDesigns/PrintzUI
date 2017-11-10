@@ -2,14 +2,18 @@ import React, { Component } from 'react';
 import './../App.css';
 import Header from './Header';
 import Footer from './Footer';
-import axios from 'axios';
+import {Link} from 'react-router-dom';
+import {Redirect} from 'react-router-dom';
+import store from './../store';
+import auth from './../auth.js';
 
 class SignIn extends Component {
   constructor(props) {
     super(props);
     this.state={
       email:'',
-      password:''
+      password:'',
+      authenticated: false,
     };
   }
 
@@ -22,23 +26,43 @@ class SignIn extends Component {
   }
 
   handleClick(event) {
+    event.preventDefault();
     var apiBaseUrl = "http://localhost:4741";
     var self = this;
     if(this.state.email.length>0 && this.state.password.length>0){
       var payload={
-        "email":this.state.email,
-        "password":this.state.password
-    };
-    console.log("pay ",payload);
-    axios.post(apiBaseUrl + '/sign-in', payload)
-    .then(function(res) {
-      console.log(res);
-    });
-  }
+        "user": {
+          "email":this.state.email,
+          "password":this.state.password
+        }
+      };
+      fetch(apiBaseUrl + '/sign-in',{
+        method: 'POST',
+        body: JSON.stringify(payload),
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+      })
+      .then(response => response.json())
+      .then(response => {
+        console.log(response);
+        store.user = response.user;
+        console.log(store.user.token);
+        this.forceUpdate(); // To rerender after sign in success
+      })
+      .catch(res => {
+        console.log(res);
+      });
+    }
   }
 
   render() {
+    const isAlreadyAuthenticated = auth.isAuthenticated();
     return (
+       isAlreadyAuthenticated ? <Redirect to = {{
+        pathname: '/'
+      }} /> : (
       <div className="SignIn">
         <Header />
 
@@ -68,11 +92,14 @@ class SignIn extends Component {
             </div>
           <p>Forgot password?</p>
           </div>
-
-         <p className="noacc">Dont have an account yet?</p>
+          <Link to="/signup">
+            <p className="noacc">Dont have an account yet?</p>
+          </Link>
 
         <Footer />
       </div>
+    )
+
     );
   }
 }

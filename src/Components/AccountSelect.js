@@ -17,13 +17,13 @@ class AccountSelect extends Component {
     if(button_select === 'Designer') {
       console.log("I am a designer");
       this.setState({
-        signup_route: '/designersignup'
+        signup_route: '/signup'
       });
     }
     if(button_select === 'User') {
       console.log("I am a user");
       this.setState({
-        signup_route: '/designersignup'
+        signup_route: '/signup'
       });
     }
     else {
