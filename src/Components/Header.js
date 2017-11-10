@@ -69,7 +69,7 @@ class Header extends Component {
           <Link to="/">
             <img alt="" className="logo-1" src={logo} />
           </Link>
-        div>
+        </div>
         <ul className="menu">
           <li><a href="" className="menu-items">Designers</a></li>
           <li><a href="" className="menu-items">Discover</a></li>
