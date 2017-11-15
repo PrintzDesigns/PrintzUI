@@ -1,0 +1,83 @@
+.title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 41px;
+  width: 702px;
+}
+
+.logo-2 {
+  border: 0 solid #979797;
+  float: left;
+  height: 70px;
+  margin-right: 13px;
+  width: 70px;
+}
+
+.title-1 {
+  color: #000000;
+  font-family: 'Avenir-Heavy', sans-serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 48px;
+}
+
+.followers {
+  color: #434343;
+  font-family: Avenir-Book;
+  font-size: 16px;
+  letter-spacing: 1.07px;
+}
+
+.follow-button {
+  border: 1px solid #979797;
+  background-color: #fff;
+  color: #252525;
+  height: 48px;
+  font-family: 'Avenir-Book', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.9px;
+  width: 143px;
+  top: 0;
+  right: 0;
+}
+
+.vendor-name {
+  float: left;
+  margin-right: 317px;
+}
+
+.vendorimg {
+  position: relative;
+}
+
+.vendorimg1 {
+  position: relative;
+}
+
+img.vendorimg1 {
+	display: block;
+  height: 342px;
+	margin-left: auto;
+  margin-right: auto;
+	margin-top: 50px;
+  position: relative;
+  visibility: visible;
+  width: 702px;
+	z-index: 1;
+}
+
+.lookButton {
+  background: rgba(37,37,37,0.20);
+  border: 4px solid #FFFFFF;
+  color: #FFFFFF;
+  font-family: 'Avenir-Heavy', sans-serif;
+  font-size: 20px;
+  height: 63px;
+  left:50%;
+  letter-spacing: 1.12px;
+  position: absolute;
+  top:50%;
+  width: 189px;
+  z-index: 2;
+}

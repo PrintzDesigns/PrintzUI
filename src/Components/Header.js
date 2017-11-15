@@ -5,7 +5,6 @@ import {Link} from 'react-router-dom';
 import logo from './../../app/assets/images/printzlogo.png';
 import store from './../store';
 import auth from './../auth';
-// import 'bootstrap/dist/css/bootstrap.css';
 import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 class Header extends Component {
@@ -59,7 +58,7 @@ class Header extends Component {
           { isAlreadyAuthenticated ? ''
            : (
           <Link to="/signin">
-            Get Started
+            <p className="signin-text">We noticed you do not have an account yet. Get Started</p>
           </Link>
         )
       }
@@ -74,7 +73,11 @@ class Header extends Component {
           <li><a href="" className="menu-items">Designers</a></li>
           <li><a href="" className="menu-items">Discover</a></li>
           <li><a href="https://www.printzdesigns.blog/" target="_blank" className="menu-items">The Journal</a></li>
-          <li><a href="" className="menu-items">Lookbook</a></li>
+          <li><a href="" className="menu-items">
+          <Link to="/lookbook">
+            Lookbook
+          </Link>
+          </a></li>
           <li><a href="" className="menu-items">Contact</a></li>
         </ul>
       </div>

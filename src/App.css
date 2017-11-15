@@ -5,12 +5,22 @@ html {
 }
 
 .signin {
-  color: #838383;
+  background-color: #979797;
+  height: 30px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.signin-text {
+  color: #000;
   float: right;
   font-family: 'Avenir-Book', sans-serif;
-  font-size: 14px;
-  letter-spacing: 0.93px;
-  margin-right: 60px;
+  float: left;
+  left: 50%;
+  margin-top: 0;
+  position: relative;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .logo {
@@ -24,7 +34,6 @@ html {
   font-size: 12px;
   height:40.77pt;
   margin: auto;
-  padding-left: 70px;
   width: 165.95pt;
 }
 
@@ -50,14 +59,14 @@ html {
 
 .menu {
   margin-left: 40px;
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
 }
 
 li {
   color: #232323;
   display: inline;
-  font-family: 'Avenir-Book', sans-serif;
+  font-family: 'Avenir-Bold', sans-serif;
   font-size: 12px;
   letter-spacing: 1px;
   line-height: 36px;
