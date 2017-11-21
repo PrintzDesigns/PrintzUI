@@ -69,17 +69,22 @@ class Header extends Component {
             <img alt="" className="logo-1" src={logo} />
           </Link>
         </div>
-        <ul className="menu">
-          <li><a href="" className="menu-items">Designers</a></li>
-          <li><a href="" className="menu-items">Discover</a></li>
-          <li><a href="https://www.printzdesigns.blog/" target="_blank" className="menu-items">The Journal</a></li>
-          <li><a href="" className="menu-items">
-          <Link to="/lookbook">
-            Lookbook
-          </Link>
-          </a></li>
-          <li><a href="" className="menu-items">Contact</a></li>
-        </ul>
+        <p className="tagline">THE SOCIAL PLACE TO DESIGN YOUR SPACE</p>
+        <div className="header-line"></div>
+        <div className="ul-menu">
+          <ul className="menu">
+            <li className="menu-li"><a href="" className="menu-items">Discover</a></li>
+            <li className="menu-li"><a href="" className="menu-items">Community Page</a></li>
+            <li className="menu-li"><a href="" className="menu-items">
+            <Link to="/lookbook" className="menu-items">
+              Lookbook
+            </Link>
+            </a></li>
+            <li className="menu-li"><a href="https://www.printzdesigns.blog/" target="_blank" className="menu-items">The Journal</a></li>
+            <li className="menu-li"><a href="" className="menu-items">Designers</a></li>
+            <li className="menu-li"><a href="" className="menu-items">About Us</a></li>
+          </ul>
+        </div>
       </div>
     );
   }

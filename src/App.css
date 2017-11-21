@@ -6,13 +6,13 @@ html {
 
 .signin {
   background-color: #979797;
-  height: 30px;
-  margin-top: 20px;
+  height:40px;
+  margin-top: 25px;
   width: 100%;
 }
 
 .signin-text {
-  color: #000;
+  color: #fff;
   float: right;
   font-family: 'Avenir-Book', sans-serif;
   float: left;
@@ -32,21 +32,21 @@ html {
   display: block;
   font-family: 'Avenir', sans-serif;
   font-size: 12px;
-  height:40.77pt;
+  height: 75px;
   margin: auto;
-  width: 165.95pt;
+  margin-top: -50px;
+  width: 250px;
 }
 
 .tagline {
-  color: #232323;
+  color: #000;
   display: block;
-  font-family: 'Avenir', sans-serif;
-  font-size: 7.7pt;
+  font-family: 'Avenir-light', sans-serif;
+  font-size: 12px;
+  height: 20px;
   margin: auto;
-  margin-top: -3px;
-  padding-right : 38pt;
   text-align: center;
-  width: 165.95pt;
+  width: 270px;
 }
 
 .line-h {
@@ -57,20 +57,39 @@ html {
   width: 770px;
 }
 
+.ul-menu {
+  display: block;
+  margin-left: 20px;
+}
+
 .menu {
-  margin-left: 40px;
-  margin-top: 20px;
+  height: 20px;
+  margin: auto;
+  margin-top: 24.5px;
   text-align: center;
 }
 
 li {
   color: #232323;
   display: inline;
-  font-family: 'Avenir-Bold', sans-serif;
+  font-family: 'Times New Roman', sans-serif;
   font-size: 12px;
+  font-weight: bold;
   letter-spacing: 1px;
   line-height: 36px;
-  margin-right: 80px;
+  margin-right: 60px;
+  text-transform: uppercase;
+}
+
+.menu-li {
+  color: #232323;
+  display: inline;
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 36px;
+  margin-right: 60px;
   text-transform: uppercase;
 }
 
@@ -86,10 +105,10 @@ a {
 
 .slideshow {
   display: block;
-  height: 466px;
+  height: 400px;
   margin: auto;
   margin-top: 30px;
-  width: 816px;
+  width: 825px;
 }
 
 .slides {
@@ -134,8 +153,8 @@ a {
 }
 
 .product .thumbnail {
-  height: 220px;
-  width: 220px;
+  height: 280px;
+  width: 280px;
 }
 
 .hiw {
@@ -173,7 +192,7 @@ a {
   border: 1px solid #eee;
   height: 350px;
   text-align: center;
-  width: 267px;
+  width: 280px;
 }
 
 .num-1 {
@@ -189,7 +208,7 @@ a {
 .head-1 {
   color: #000000;
   font-family: 'TimesNewRomanPSMT', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 300;
   height: 32px;
   letter-spacing: 1.6px;
@@ -203,7 +222,7 @@ a {
 .p-1 {
   color: #232323;
   font-family: 'Avenir-Book', sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   height: 140px;
   letter-spacing: 0.83px;
   line-height: 28px;
@@ -416,4 +435,11 @@ a {
   height: 20px;
   width: 20px;
   margin-left: -40px;
+}
+
+.header-line {
+  border: 1px solid #000;
+  margin: auto;
+  margin-top: 14.48px;
+  width: 825px;
 }
