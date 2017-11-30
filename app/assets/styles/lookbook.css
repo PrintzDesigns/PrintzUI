@@ -3,7 +3,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 41px;
-  width: 702px;
+  width: 825px;
 }
 
 .logo-2 {
@@ -30,54 +30,46 @@
 }
 
 .follow-button {
-  border: 1px solid #979797;
   background-color: #fff;
+  border: 1px solid #979797;
   color: #252525;
-  height: 48px;
+  float: right;
   font-family: 'Avenir-Book', sans-serif;
   font-size: 16px;
+  height: 48px;
   letter-spacing: 0.9px;
+  margin-top: -50px;
   width: 143px;
-  top: 0;
-  right: 0;
 }
 
 .vendor-name {
-  float: left;
   margin-right: 317px;
 }
 
 .vendorimg {
-  position: relative;
+  display: block;
+  height: 400px;
+  margin: auto;
+  margin-top: 16px;
+  width: 825px;
 }
 
 .vendorimg1 {
-  position: relative;
-}
-
-img.vendorimg1 {
-	display: block;
-  height: 342px;
-	margin-left: auto;
-  margin-right: auto;
-	margin-top: 50px;
-  position: relative;
-  visibility: visible;
-  width: 702px;
-	z-index: 1;
+  height: 100%;
+  width: 100%;
 }
 
 .lookButton {
   background: rgba(37,37,37,0.20);
   border: 4px solid #FFFFFF;
   color: #FFFFFF;
+  display:block;
   font-family: 'Avenir-Heavy', sans-serif;
   font-size: 20px;
   height: 63px;
-  left:50%;
   letter-spacing: 1.12px;
-  position: absolute;
+  margin: 0 auto;
   top:50%;
+  transform: translateY(-400%);
   width: 189px;
-  z-index: 2;
 }

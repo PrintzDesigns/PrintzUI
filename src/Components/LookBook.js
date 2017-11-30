@@ -14,6 +14,7 @@ class LookBook extends Component {
     return (
       <div className="LookBook">
         <Header />
+
         <div className="lookbook">
           <div className="look">
             <div className="title">
@@ -24,14 +25,18 @@ class LookBook extends Component {
                 <div className="title-1">Gabby Home</div>
                 <div className="followers">298 followers</div>
               </div>
-              <button className="follow-button">Follow</button>
-              <div className="vendorimg">
-                <a href="#">
-                  <img className="vendorimg1" src={GabbyHomeImg} alt="" />
-                </a>
-                <button className="lookButton">LOOK</button>
+              <div className="fol-button">
+                <button className="follow-button">Follow</button>
               </div>
             </div>
+            <div className="vendorimg">
+              <a href="#">
+                <img className="vendorimg1" src={GabbyHomeImg} alt="" />
+              </a>
+              <button className="lookButton">LOOK</button>
+            </div>
+          </div>
+          <div className="look">
             <div className="title">
               <div className="logo-2">
                 <img alt="" className="logo-2" src={WorldsAwayLogo} alt="" />
@@ -40,14 +45,18 @@ class LookBook extends Component {
                 <div className="title-1">Worlds Away</div>
                 <div className="followers">523 followers</div>
               </div>
-              <button className="follow-button">Follow</button>
-              <div className="vendorimg">
-                <a href="#">
-                  <img className="vendorimg1" src={WorldsAwayImg} alt="" />
-                </a>
-                <button className="lookButton">LOOK</button>
+              <div className="fol-button">
+                <button className="follow-button">Follow</button>
               </div>
             </div>
+            <div className="vendorimg">
+              <a href="#">
+                <img className="vendorimg1" src={WorldsAwayImg} alt="" />
+              </a>
+              <button className="lookButton">LOOK</button>
+            </div>
+          </div>
+          <div className="look">
             <div className="title">
               <div className="logo-2">
                 <img alt="" className="logo-2" src={RADLogo} alt="" />
@@ -56,7 +65,9 @@ class LookBook extends Component {
                 <div className="title-1">Regina Andrews Deisgn</div>
                 <div className="followers">102 followers</div>
               </div>
-              <button className="follow-button">Follow</button>
+              <div className="fol-button">
+                <button className="follow-button">Follow</button>
+              </div>
               <div className="vendorimg">
                 <a href="#">
                   <img className="vendorimg1" src={RADImg} alt="" />
@@ -66,6 +77,7 @@ class LookBook extends Component {
             </div>
           </div>
         </div>
+
         <Footer />
       </div>
     );
